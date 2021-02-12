@@ -1,6 +1,6 @@
-from PyQt5.QtCore import *
-from PyQt5.QtGui import *
-from PyQt5.QtWidgets import *
+from PySide2.QtCore import *
+from PySide2.QtGui import *
+from PySide2.QtWidgets import *
 
 import pyqtgraph as pg
 import numpy as np
@@ -260,6 +260,7 @@ if __name__ == "__main__":
     wid = QMainWindow()
     ui = Window(wid)
     wid.show()
-    sys.exit(app.exec())    
+    sys.exit(app.exec_())
+        
 
 
